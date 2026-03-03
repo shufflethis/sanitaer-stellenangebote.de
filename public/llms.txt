@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# sanitaer-stellenangebote.de - Sanitaer Stellenangebote
+
+> sanitaer-stellenangebote.de ist ein spezialisiertes Jobportal fuer Sanitaer-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Sanitaer
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://sanitaer-stellenangebote.de
+- Arbeitgeber-Kontakt: https://sanitaer-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://sanitaer-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Sanitaer-Stellenangebote
+- Karriere-Ratgeber fuer Sanitaer
+- Gehaltsvergleiche und Brancheninformationen

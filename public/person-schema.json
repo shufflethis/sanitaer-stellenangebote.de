@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://sanitaer-stellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "sanitaer-stellenangebote.de",
+    "url": "https://sanitaer-stellenangebote.de"
+  },
+  "description": "Gruender von sanitaer-stellenangebote.de - spezialisiertes Jobportal fuer Sanitaer-Stellenangebote.",
+  "knowsAbout": [
+    "Sanitaer",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}
