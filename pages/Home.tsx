@@ -11,37 +11,229 @@ import { Wrench, Thermometer, Droplets } from 'lucide-react';
 
 const MOCK_JOBS: Job[] = [
   {
-    id: 'shk1',
-    title: 'Anlagenmechaniker SHK (m/w/d)',
-    company: 'Meisterbetrieb Haustechnik GmbH',
-    location: 'Köln',
+    id: '1',
+    title: 'Verkäufer Sanitär (m/w/d)',
+    company: 'Bauhaus AG',
+    location: 'Berlin',
     type: 'Vollzeit',
-    salary: '3.800€ - 4.500€',
-    description: 'Installation von Sanitär- und Heizungsanlagen in Neubau und Sanierung. Wir bieten ein festes Servicefahrzeug und modernstes Werkzeug.',
-    postedAt: 'Vor 2 Std.',
-    logo: 'https://picsum.photos/seed/plumbing1/120/120'
+    description: 'Verkäufer Sanitär (m/w/d)',
+    postedAt: '2026-03-04'
   },
   {
-    id: 'shk2',
-    title: 'Kundendiensttechniker Heizung/Sanitär',
-    company: 'Energie-Lösungen Nord',
+    id: '2',
+    title: 'Anlagenmechaniker/in Sanitär',
+    company: 'Unruh Personal GmbH',
+    location: 'Kiel',
+    type: 'Vollzeit',
+    description: 'Anlagenmechaniker/in Sanitär',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '3',
+    title: 'Bauklempner/in Sanitär',
+    company: 'Unruh Personal GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Bauklempner/in Sanitär',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '4',
+    title: 'Rohrschlosser / Sanitär / Heizungsbauer',
+    company: 'HIT Personaldienstleistungen GmbH Hamburg',
     location: 'Hamburg',
     type: 'Vollzeit',
-    salary: '4.200€ - 5.000€',
-    description: 'Wartung und Störungsbehebung moderner Gas- und Ölheizungen sowie Wärmepumpen. Eigenverantwortliches Arbeiten im Notdienst.',
-    postedAt: 'Vor 5 Std.',
-    logo: 'https://picsum.photos/seed/heat1/120/120'
+    description: 'Rohrschlosser / Sanitär / Heizungsbauer',
+    postedAt: '2026-03-03'
   },
   {
-    id: 'shk3',
-    title: 'Meister / Projektleiter SHK',
-    company: 'Gebäudetechnik Schmidt',
+    id: '5',
+    title: 'Anlagenmechaniker / Anlagenmechanikerin für Sanitär-. Heizungs- u...',
+    company: 'Ludwig-Maximilians-Universität München',
     location: 'München',
     type: 'Vollzeit',
-    salary: '5.500€ - 6.800€',
-    description: 'Planung und Bauleitung von Großprojekten im Bereich Klima- und Lüftungstechnik. Führung eines Teams von 10 Monteuren.',
-    postedAt: 'Gestern',
-    logo: 'https://picsum.photos/seed/manager1/120/120'
+    description: 'Anlagenmechaniker / Anlagenmechanikerin für Sanitär-. Heizungs- u...',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '6',
+    title: 'Anlagenmechaniker für Sanitär-, Heizungs- und  (m/w/d)',
+    company: 'Tannenberger GmbH',
+    location: 'Seubersdorf in der Oberpfalz',
+    type: 'Vollzeit',
+    description: 'Anlagenmechaniker für Sanitär-, Heizungs- und  (m/w/d)',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '7',
+    title: 'Anlagenmechaniker Heizung Sanitär (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Warendorf',
+    location: 'Versmold',
+    type: 'Vollzeit',
+    description: 'Anlagenmechaniker Heizung Sanitär (m/w/d)',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '8',
+    title: 'Sachbearbeiter Sanitär / Schwerpunkt Einkauf (m/w/d)',
+    company: 'Boor Bäder GmbH',
+    location: 'Völklingen',
+    type: 'Vollzeit',
+    description: 'Sachbearbeiter Sanitär / Schwerpunkt Einkauf (m/w/d)',
+    postedAt: '2026-03-03'
+  },
+  {
+    id: '9',
+    title: 'Anlagenmechaniker - Sanitär (m/w/d)',
+    company: 'SYNERGIE Personal HR GmbH Niederlassung Buchholz SYNERGIE',
+    location: 'Schneverdingen',
+    type: 'Vollzeit',
+    description: 'Anlagenmechaniker - Sanitär (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '10',
+    title: 'Anlagenmechaniker (m/w/d) Sanitär und Heizung',
+    company: 'WEISS Personalmanagement GmbH - Hanau',
+    location: 'Hanau',
+    type: 'Vollzeit',
+    description: 'Anlagenmechaniker (m/w/d) Sanitär und Heizung',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '11',
+    title: 'Sanitär- und Heizungsinstallateur (m/w/d)',
+    company: 'Bankpower GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Sanitär- und Heizungsinstallateur (m/w/d)',
+    postedAt: '2026-03-01'
+  },
+  {
+    id: '12',
+    title: 'Sanitär- und Heizungsmonteur/in (m/w/d)',
+    company: 'Reß Haustechnik GmbH & Co. KG',
+    location: 'Nürnberg, Mittelfranken',
+    type: 'Vollzeit',
+    description: 'Sanitär- und Heizungsmonteur/in (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '13',
+    title: 'Heizungs-, Sanitär- und Kundendienstmonteur (m/w/d)',
+    company: 'Christian Iwers Heizung-Sanitär e.K.',
+    location: 'Stapel bei Husum, Nordsee',
+    type: 'Vollzeit',
+    description: 'Heizungs-, Sanitär- und Kundendienstmonteur (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '14',
+    title: 'Verkäufer Sanitär (m/w/d)',
+    company: 'Bauhaus AG',
+    location: 'Freiburg im Breisgau',
+    type: 'Vollzeit',
+    description: 'Verkäufer Sanitär (m/w/d)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '15',
+    title: 'Anlagenmechaniker Heizung Sanitär',
+    company: 'Hess & Makanda GmbH',
+    location: 'Remseck am Neckar',
+    type: 'Vollzeit',
+    description: 'Anlagenmechaniker Heizung Sanitär',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '16',
+    title: 'Sanitär- und Heizungsinstallateur (m/w/d)',
+    company: 'meteor Personaldienste AG & Co. KGaA',
+    location: 'Kerpen, Rheinland',
+    type: 'Vollzeit',
+    description: 'Sanitär- und Heizungsinstallateur (m/w/d)',
+    postedAt: '2026-02-18'
+  },
+  {
+    id: '17',
+    title: 'Sanitär-Heizungsmonteur (m/w/d)',
+    company: 'abakus Personal GmbH & Co KG',
+    location: 'Bad Brückenau',
+    type: 'Vollzeit',
+    description: 'Sanitär-Heizungsmonteur (m/w/d)',
+    postedAt: '2026-02-18'
+  },
+  {
+    id: '18',
+    title: 'Sanitär- und Heizungsmonteur (m/w/d)',
+    company: 'Weich GmbH',
+    location: 'Amberg, Oberpfalz',
+    type: 'Vollzeit',
+    description: 'Sanitär- und Heizungsmonteur (m/w/d)',
+    postedAt: '2026-02-18'
+  },
+  {
+    id: '19',
+    title: 'Verkäufer (w/m/d) Sanitär',
+    company: 'BRAUN KG',
+    location: 'Trier',
+    type: 'Vollzeit',
+    description: 'Verkäufer (w/m/d) Sanitär',
+    postedAt: '2026-02-18'
+  },
+  {
+    id: '20',
+    title: 'Verkäufer (w/m/d) Sanitär',
+    company: 'LÖHLE KG',
+    location: 'Kaiserslautern',
+    type: 'Vollzeit',
+    description: 'Verkäufer (w/m/d) Sanitär',
+    postedAt: '2026-02-18'
+  },
+  {
+    id: '21',
+    title: 'Verkäufer (w/m/d) Sanitär',
+    company: 'HOLZHAUER KG',
+    location: 'Saarbrücken',
+    type: 'Vollzeit',
+    description: 'Verkäufer (w/m/d) Sanitär',
+    postedAt: '2026-02-18'
+  },
+  {
+    id: '22',
+    title: 'Sanitär- und Heizungsinstallateur (m/w/d)',
+    company: 'C. Kenneweg GmbH',
+    location: 'Barver',
+    type: 'Vollzeit',
+    description: 'Sanitär- und Heizungsinstallateur (m/w/d)',
+    postedAt: '2026-02-06'
+  },
+  {
+    id: '23',
+    title: 'Installateur (m/w/d) Sanitär',
+    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg',
+    location: 'Hamburg',
+    type: 'Vollzeit',
+    description: 'Installateur (m/w/d) Sanitär',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '24',
+    title: 'Fachhelfer Sanitär (m/w/d)',
+    company: 'König Fachpersonal GmbH & Co KG, Niederlassung Frankfurt / Main',
+    location: 'Frankfurt am Main',
+    type: 'Vollzeit',
+    description: 'Fachhelfer Sanitär (m/w/d)',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '25',
+    title: 'Sanitär mit Hausmeistertätigkeiten',
+    company: 'Service Company Kieslich + Rösch GmbH',
+    location: 'Lampertheim, Hessen',
+    type: 'Vollzeit',
+    description: 'Sanitär mit Hausmeistertätigkeiten',
+    postedAt: '2026-01-28'
   }
 ];
 
