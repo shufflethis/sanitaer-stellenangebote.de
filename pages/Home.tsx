@@ -12,228 +12,228 @@ import { Wrench, Thermometer, Droplets } from 'lucide-react';
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
-    title: 'Verkäufer Sanitär (m/w/d)',
-    company: 'Bauhaus AG',
-    location: 'Berlin',
+    title: 'Techniker/Ingenieur Elektro oder Elektromeister Gebäudetechnik als Projektleiter (m/w/d)',
+    company: 'Andrea Erler Personalberatung',
+    location: 'Straubing',
     type: 'Vollzeit',
-    description: 'Verkäufer Sanitär (m/w/d)',
-    postedAt: '2026-03-04'
+    description: 'Techniker/Ingenieur Elektro oder Elektromeister Gebäudetechnik als Projektleiter (m/w/d)',
+    postedAt: '2026-03-08'
   },
   {
     id: '2',
-    title: 'Anlagenmechaniker/in Sanitär',
-    company: 'Unruh Personal GmbH',
-    location: 'Kiel',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker/in Sanitär',
-    postedAt: '2026-03-03'
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
   },
   {
     id: '3',
-    title: 'Bauklempner/in Sanitär',
-    company: 'Unruh Personal GmbH',
-    location: 'Berlin',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
     type: 'Vollzeit',
-    description: 'Bauklempner/in Sanitär',
-    postedAt: '2026-03-03'
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
   },
   {
     id: '4',
-    title: 'Rohrschlosser / Sanitär / Heizungsbauer',
-    company: 'HIT Personaldienstleistungen GmbH Hamburg',
-    location: 'Hamburg',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'Nürnberg',
     type: 'Vollzeit',
-    description: 'Rohrschlosser / Sanitär / Heizungsbauer',
-    postedAt: '2026-03-03'
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
   },
   {
     id: '5',
-    title: 'Anlagenmechaniker / Anlagenmechanikerin für Sanitär-. Heizungs- u...',
-    company: 'Ludwig-Maximilians-Universität München',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
     location: 'München',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker / Anlagenmechanikerin für Sanitär-. Heizungs- u...',
-    postedAt: '2026-03-03'
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
   },
   {
     id: '6',
-    title: 'Anlagenmechaniker für Sanitär-, Heizungs- und  (m/w/d)',
-    company: 'Tannenberger GmbH',
-    location: 'Seubersdorf in der Oberpfalz',
+    title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    company: 'NORDIC RAIL SERVICE GMBH',
+    location: 'Lübeck',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker für Sanitär-, Heizungs- und  (m/w/d)',
-    postedAt: '2026-03-03'
+    description: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    postedAt: '2026-03-08'
   },
   {
     id: '7',
-    title: 'Anlagenmechaniker Heizung Sanitär (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Warendorf',
-    location: 'Versmold',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Nürnberg, Mittelfranken',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker Heizung Sanitär (m/w/d)',
-    postedAt: '2026-03-03'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '8',
-    title: 'Sachbearbeiter Sanitär / Schwerpunkt Einkauf (m/w/d)',
-    company: 'Boor Bäder GmbH',
-    location: 'Völklingen',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Regensburg',
     type: 'Vollzeit',
-    description: 'Sachbearbeiter Sanitär / Schwerpunkt Einkauf (m/w/d)',
-    postedAt: '2026-03-03'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '9',
-    title: 'Anlagenmechaniker - Sanitär (m/w/d)',
-    company: 'SYNERGIE Personal HR GmbH Niederlassung Buchholz SYNERGIE',
-    location: 'Schneverdingen',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Freiburg im Breisgau',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker - Sanitär (m/w/d)',
-    postedAt: '2026-03-02'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '10',
-    title: 'Anlagenmechaniker (m/w/d) Sanitär und Heizung',
-    company: 'WEISS Personalmanagement GmbH - Hanau',
-    location: 'Hanau',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Dresden',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker (m/w/d) Sanitär und Heizung',
-    postedAt: '2026-03-02'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '11',
-    title: 'Sanitär- und Heizungsinstallateur (m/w/d)',
-    company: 'Bankpower GmbH',
-    location: 'München',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Bremen',
     type: 'Vollzeit',
-    description: 'Sanitär- und Heizungsinstallateur (m/w/d)',
-    postedAt: '2026-03-01'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '12',
-    title: 'Sanitär- und Heizungsmonteur/in (m/w/d)',
-    company: 'Reß Haustechnik GmbH & Co. KG',
-    location: 'Nürnberg, Mittelfranken',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Köln',
     type: 'Vollzeit',
-    description: 'Sanitär- und Heizungsmonteur/in (m/w/d)',
-    postedAt: '2026-02-27'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '13',
-    title: 'Heizungs-, Sanitär- und Kundendienstmonteur (m/w/d)',
-    company: 'Christian Iwers Heizung-Sanitär e.K.',
-    location: 'Stapel bei Husum, Nordsee',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Frankfurt am Main',
     type: 'Vollzeit',
-    description: 'Heizungs-, Sanitär- und Kundendienstmonteur (m/w/d)',
-    postedAt: '2026-02-27'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '14',
-    title: 'Verkäufer Sanitär (m/w/d)',
-    company: 'Bauhaus AG',
-    location: 'Freiburg im Breisgau',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Berlin',
     type: 'Vollzeit',
-    description: 'Verkäufer Sanitär (m/w/d)',
-    postedAt: '2026-02-27'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '15',
-    title: 'Anlagenmechaniker Heizung Sanitär',
-    company: 'Hess & Makanda GmbH',
-    location: 'Remseck am Neckar',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Karlsruhe, Baden',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker Heizung Sanitär',
-    postedAt: '2026-02-27'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '16',
-    title: 'Sanitär- und Heizungsinstallateur (m/w/d)',
-    company: 'meteor Personaldienste AG & Co. KGaA',
-    location: 'Kerpen, Rheinland',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Leipzig',
     type: 'Vollzeit',
-    description: 'Sanitär- und Heizungsinstallateur (m/w/d)',
-    postedAt: '2026-02-18'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '17',
-    title: 'Sanitär-Heizungsmonteur (m/w/d)',
-    company: 'abakus Personal GmbH & Co KG',
-    location: 'Bad Brückenau',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Düsseldorf',
     type: 'Vollzeit',
-    description: 'Sanitär-Heizungsmonteur (m/w/d)',
-    postedAt: '2026-02-18'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '18',
-    title: 'Sanitär- und Heizungsmonteur (m/w/d)',
-    company: 'Weich GmbH',
-    location: 'Amberg, Oberpfalz',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'München',
     type: 'Vollzeit',
-    description: 'Sanitär- und Heizungsmonteur (m/w/d)',
-    postedAt: '2026-02-18'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '19',
-    title: 'Verkäufer (w/m/d) Sanitär',
-    company: 'BRAUN KG',
-    location: 'Trier',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Hannover',
     type: 'Vollzeit',
-    description: 'Verkäufer (w/m/d) Sanitär',
-    postedAt: '2026-02-18'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '20',
-    title: 'Verkäufer (w/m/d) Sanitär',
-    company: 'LÖHLE KG',
-    location: 'Kaiserslautern',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Stuttgart',
     type: 'Vollzeit',
-    description: 'Verkäufer (w/m/d) Sanitär',
-    postedAt: '2026-02-18'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '21',
-    title: 'Verkäufer (w/m/d) Sanitär',
-    company: 'HOLZHAUER KG',
-    location: 'Saarbrücken',
+    title: 'Anlagenmechaniker/in Sanitär',
+    company: 'Unruh Personal GmbH',
+    location: 'Köln',
     type: 'Vollzeit',
-    description: 'Verkäufer (w/m/d) Sanitär',
-    postedAt: '2026-02-18'
+    description: 'Anlagenmechaniker/in Sanitär',
+    postedAt: '2026-03-06'
   },
   {
     id: '22',
-    title: 'Sanitär- und Heizungsinstallateur (m/w/d)',
-    company: 'C. Kenneweg GmbH',
-    location: 'Barver',
+    title: 'Bauklempner/in Sanitär',
+    company: 'Unruh Personal GmbH',
+    location: 'Kiel',
     type: 'Vollzeit',
-    description: 'Sanitär- und Heizungsinstallateur (m/w/d)',
-    postedAt: '2026-02-06'
+    description: 'Bauklempner/in Sanitär',
+    postedAt: '2026-03-06'
   },
   {
     id: '23',
-    title: 'Installateur (m/w/d) Sanitär',
-    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg',
-    location: 'Hamburg',
+    title: 'Verkäufer Sanitär (m/w/d)',
+    company: 'Bauhaus AG',
+    location: 'Kiel',
     type: 'Vollzeit',
-    description: 'Installateur (m/w/d) Sanitär',
-    postedAt: '2026-02-02'
+    description: 'Verkäufer Sanitär (m/w/d)',
+    postedAt: '2026-03-06'
   },
   {
     id: '24',
-    title: 'Fachhelfer Sanitär (m/w/d)',
-    company: 'König Fachpersonal GmbH & Co KG, Niederlassung Frankfurt / Main',
-    location: 'Frankfurt am Main',
+    title: 'Haustechniker (m/w/d) mit Fachrichtung Sanitär und Heizung',
+    company: 'Colonia Personal UG (haftungsbeschränkt)',
+    location: 'Bonn',
     type: 'Vollzeit',
-    description: 'Fachhelfer Sanitär (m/w/d)',
-    postedAt: '2026-02-02'
+    description: 'Haustechniker (m/w/d) mit Fachrichtung Sanitär und Heizung',
+    postedAt: '2026-03-06'
   },
   {
     id: '25',
-    title: 'Sanitär mit Hausmeistertätigkeiten',
-    company: 'Service Company Kieslich + Rösch GmbH',
-    location: 'Lampertheim, Hessen',
+    title: 'Anlagenmechaniker für Heizung und Sanitär (m/w/d)',
+    company: 'Aide GmbH Hamburg',
+    location: 'Hamburg',
     type: 'Vollzeit',
-    description: 'Sanitär mit Hausmeistertätigkeiten',
-    postedAt: '2026-01-28'
+    description: 'Anlagenmechaniker für Heizung und Sanitär (m/w/d)',
+    postedAt: '2026-03-04'
   }
 ];
 
