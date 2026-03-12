@@ -1,19 +1,25 @@
 # HR-UPDATER: v1.0
 # sanitaer-stellenangebote.de - Sanitaer Stellenangebote
 
-> sanitaer-stellenangebote.de ist ein spezialisiertes Jobportal fuer Sanitaer-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> sanitaer-stellenangebote.de ist ein spezialisiertes Jobportal fuer Sanitaer-, Heizungs- und Klimatechnik-Stellenangebote (SHK) in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Sanitaer
+- Spezialisiertes Jobportal fuer Sanitaer, Heizung & Klima (SHK)
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Betreiber: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+- Geschaeftsfuehrer: Thomas Sander
+- Telefon: +49 30 959 988 700
 
 ## Kontakt
 - Website: https://sanitaer-stellenangebote.de
-- Arbeitgeber-Kontakt: https://sanitaer-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://sanitaer-stellenangebote.de/kontakt-bewerber
+- E-Mail: info@socialmediaventure.com
+- Telefon: +49 30 959 988 700
+- Adresse: Schliemannstrasse 23, 10437 Berlin
 
 ## Inhalte
-- Aktuelle Sanitaer-Stellenangebote
-- Karriere-Ratgeber fuer Sanitaer
+- Aktuelle Sanitaer-Stellenangebote in ganz Deutschland
+- SHK-Jobs: Anlagenmechaniker, Servicetechniker, Meister, Projektleiter
+- Karriere-Ratgeber fuer die Sanitaer- und Heizungsbranche
 - Gehaltsvergleiche und Brancheninformationen
+- Regionale Jobsuche in allen deutschen Grossstaedten
