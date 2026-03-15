@@ -13,6 +13,60 @@ import { Wrench, Thermometer, Droplets, HelpCircle, TrendingUp, GraduationCap, A
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '7',
     title: 'Techniker/Ingenieur Elektro oder Elektromeister Gebäudetechnik als Projektleiter (m/w/d)',
     company: 'Andrea Erler Personalberatung',
     location: 'Straubing',
@@ -21,7 +75,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '2',
+    id: '8',
     title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
     company: 'HUK-COBURG Versicherungsgruppe',
     location: 'Weißenburg i. Bayern',
@@ -30,7 +84,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '3',
+    id: '9',
     title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
     company: 'HUK-COBURG Versicherungsgruppe',
     location: 'Nürnberg',
@@ -39,7 +93,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '4',
+    id: '10',
     title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
     company: 'Sikla GmbH',
     location: 'Nürnberg',
@@ -48,7 +102,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '5',
+    id: '11',
     title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
     company: 'Sikla GmbH',
     location: 'München',
@@ -57,7 +111,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '6',
+    id: '12',
     title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
     company: 'NORDIC RAIL SERVICE GMBH',
     location: 'Lübeck',
@@ -66,7 +120,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '7',
+    id: '13',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
     location: 'Nürnberg, Mittelfranken',
@@ -75,7 +129,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-07'
   },
   {
-    id: '8',
+    id: '14',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
     location: 'Regensburg',
@@ -84,7 +138,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-07'
   },
   {
-    id: '9',
+    id: '15',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
     location: 'Freiburg im Breisgau',
@@ -93,7 +147,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-07'
   },
   {
-    id: '10',
+    id: '16',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
     location: 'Dresden',
@@ -102,7 +156,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-07'
   },
   {
-    id: '11',
+    id: '17',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
     location: 'Bremen',
@@ -111,64 +165,10 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-07'
   },
   {
-    id: '12',
-    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    company: 'avanti GmbH',
-    location: 'Köln',
-    type: 'Vollzeit',
-    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    postedAt: '2026-03-07'
-  },
-  {
-    id: '13',
-    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    company: 'avanti GmbH',
-    location: 'Frankfurt am Main',
-    type: 'Vollzeit',
-    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    postedAt: '2026-03-07'
-  },
-  {
-    id: '14',
-    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    company: 'avanti GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    postedAt: '2026-03-07'
-  },
-  {
-    id: '15',
-    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    company: 'avanti GmbH',
-    location: 'Karlsruhe, Baden',
-    type: 'Vollzeit',
-    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    postedAt: '2026-03-07'
-  },
-  {
-    id: '16',
-    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    company: 'avanti GmbH',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    postedAt: '2026-03-07'
-  },
-  {
-    id: '17',
-    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    company: 'avanti GmbH',
-    location: 'Düsseldorf',
-    type: 'Vollzeit',
-    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
-    postedAt: '2026-03-07'
-  },
-  {
     id: '18',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
-    location: 'München',
+    location: 'Köln',
     type: 'Vollzeit',
     description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     postedAt: '2026-03-07'
@@ -177,7 +177,7 @@ const MOCK_JOBS: Job[] = [
     id: '19',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
-    location: 'Hannover',
+    location: 'Frankfurt am Main',
     type: 'Vollzeit',
     description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     postedAt: '2026-03-07'
@@ -186,55 +186,55 @@ const MOCK_JOBS: Job[] = [
     id: '20',
     title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     company: 'avanti GmbH',
-    location: 'Stuttgart',
+    location: 'Berlin',
     type: 'Vollzeit',
     description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
     postedAt: '2026-03-07'
   },
   {
     id: '21',
-    title: 'Anlagenmechaniker/in Sanitär',
-    company: 'Unruh Personal GmbH',
-    location: 'Köln',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Karlsruhe, Baden',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker/in Sanitär',
-    postedAt: '2026-03-06'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '22',
-    title: 'Bauklempner/in Sanitär',
-    company: 'Unruh Personal GmbH',
-    location: 'Kiel',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Leipzig',
     type: 'Vollzeit',
-    description: 'Bauklempner/in Sanitär',
-    postedAt: '2026-03-06'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '23',
-    title: 'Verkäufer Sanitär (m/w/d)',
-    company: 'Bauhaus AG',
-    location: 'Kiel',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Düsseldorf',
     type: 'Vollzeit',
-    description: 'Verkäufer Sanitär (m/w/d)',
-    postedAt: '2026-03-06'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '24',
-    title: 'Haustechniker (m/w/d) mit Fachrichtung Sanitär und Heizung',
-    company: 'Colonia Personal UG (haftungsbeschränkt)',
-    location: 'Bonn',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'München',
     type: 'Vollzeit',
-    description: 'Haustechniker (m/w/d) mit Fachrichtung Sanitär und Heizung',
-    postedAt: '2026-03-06'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   },
   {
     id: '25',
-    title: 'Anlagenmechaniker für Heizung und Sanitär (m/w/d)',
-    company: 'Aide GmbH Hamburg',
-    location: 'Hamburg',
+    title: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    company: 'avanti GmbH',
+    location: 'Hannover',
     type: 'Vollzeit',
-    description: 'Anlagenmechaniker für Heizung und Sanitär (m/w/d)',
-    postedAt: '2026-03-04'
+    description: 'Servicetechniker (m/w/d) Heizung, Sanitär',
+    postedAt: '2026-03-07'
   }
 ];
 
